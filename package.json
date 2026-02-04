@@ -1,0 +1,22 @@
+{
+  "name": "qast",
+  "version": "0.1.0",
+  "description": "QasT - a tiny, beginner-first interpreted language with q.-prefixed lines.",
+  "bin": {
+    "qast": "bin/qast.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/qast.js",
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": [
+    "language",
+    "interpreter",
+    "qast"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
+
